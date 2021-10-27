@@ -1,0 +1,32 @@
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(223, 133, 231);
+}
+
+.photo{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    transition-property: heigth, width, transform;
+    transition-duration: 1s;
+}
+
+.photo:hover {
+    height: 600px;
+    width: 600px;
+    
+}
+
+.active{
+    height: 200px;
+    width: 200px;
+    transform: translateX(800px);
+}
+.active:nth-of-type(even){
+    transform: translateX(-800px);
+}
+

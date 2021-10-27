@@ -1,0 +1,36 @@
+
+.main{
+    display: flex;
+    height: 675px;
+    justify-content: center;
+    background-image:  url(./images/2.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.form{
+    justify-content: center;
+    margin-top: 106px;
+    margin-left: 100px;
+    font-style: italic;
+}
+
+.ready{
+    font-size: 20px;
+}
+
+.del{
+    font-size: 20px;
+    font-weight:lighter;
+    text-decoration: line-through
+}
+
+input{
+    width: 350px;
+    height: 30px;
+}
+
+p{
+    align-self: end;
+    margin-block: 50px;
+}
